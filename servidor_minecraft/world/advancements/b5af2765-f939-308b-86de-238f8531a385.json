@@ -374,6 +374,7 @@
     "criteria": {
       "chicken": "2025-04-20 05:58:19 +0000",
       "rotten_flesh": "2025-04-06 07:46:20 +0000",
+      "salmon": "2025-04-20 06:42:28 +0000",
       "beef": "2025-04-20 05:58:02 +0000",
       "cooked_salmon": "2025-04-06 07:48:35 +0000"
     },
@@ -526,6 +527,12 @@
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2025-04-20 06:22:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-04-20 06:46:46 +0000"
     },
     "done": true
   },
@@ -757,9 +764,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-04-20 06:46:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2025-04-20 05:41:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-04-20 06:46:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-04-20 06:46:46 +0000"
     },
     "done": true
   },
