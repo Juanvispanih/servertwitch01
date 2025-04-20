@@ -464,6 +464,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-04-20 06:50:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2025-04-20 05:57:32 +0000"
@@ -559,6 +565,12 @@
       "has_chicken": "2025-04-20 05:54:04 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2025-04-20 06:49:29 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
@@ -821,6 +833,12 @@
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2025-04-20 06:22:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2025-04-20 06:49:29 +0000"
     },
     "done": true
   },
