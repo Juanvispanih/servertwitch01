@@ -7,16 +7,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-04-06 07:15:12 +0000",
       "minecraft:beach": "2025-04-06 07:40:36 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-04-21 05:34:16 +0000",
       "minecraft:dark_forest": "2025-04-21 05:22:52 +0000",
       "minecraft:forest": "2025-04-06 07:17:25 +0000",
+      "minecraft:taiga": "2025-04-21 05:33:19 +0000",
       "minecraft:sparse_jungle": "2025-04-06 08:14:10 +0000",
-      "minecraft:ocean": "2025-04-06 08:00:17 +0000",
       "minecraft:river": "2025-04-06 07:16:42 +0000",
       "minecraft:lukewarm_ocean": "2025-04-06 08:15:58 +0000",
-      "minecraft:birch_forest": "2025-04-06 07:17:23 +0000",
       "minecraft:lush_caves": "2025-04-21 05:24:04 +0000",
+      "minecraft:old_growth_birch_forest": "2025-04-06 07:15:12 +0000",
+      "minecraft:ocean": "2025-04-06 08:00:17 +0000",
+      "minecraft:birch_forest": "2025-04-06 07:17:23 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-04-21 05:33:29 +0000",
       "minecraft:savanna": "2025-04-21 04:22:18 +0000",
       "minecraft:plains": "2025-04-06 07:17:34 +0000"
     },
@@ -383,7 +386,8 @@
       "salmon": "2025-04-20 06:42:28 +0000",
       "cooked_beef": "2025-04-20 07:38:23 +0000",
       "beef": "2025-04-20 05:58:02 +0000",
-      "cooked_salmon": "2025-04-06 07:48:35 +0000"
+      "cooked_salmon": "2025-04-06 07:48:35 +0000",
+      "tropical_fish": "2025-04-21 05:32:12 +0000"
     },
     "done": false
   },
@@ -1487,6 +1491,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-04-21 05:25:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-04-21 03:58:25 +0000"
@@ -1604,6 +1614,18 @@
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2025-04-21 04:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-04-21 05:25:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-04-21 05:25:38 +0000"
     },
     "done": true
   },
